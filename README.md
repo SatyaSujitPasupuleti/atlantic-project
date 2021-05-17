@@ -28,3 +28,4 @@ Things I wanted to add but didn't have enough time to
     Testing for Gifts/Subscriptions (Duplicates/Gets)
     Adding Serializer/View for Gift and Subscriptions (To add read endpoint)
     adding git ignore/git hook/Linter for code quality
+    adding requirements.txt for pip install
