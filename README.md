@@ -14,3 +14,7 @@ then make migrations and migrate
 and then run the server
 
     python manage.py runserver
+
+to test
+
+    python manage.py test

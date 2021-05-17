@@ -1,0 +1,31 @@
+{
+    "customer": {
+      "id": "1234",
+      "first_name": "Satya",
+      "last_name": "Pasupuleti",
+      "address_1": "Address",
+      "address_2": "",
+      "city": "City",
+      "state": "NJ",
+      "postal_code": "33043",
+      "subscription": {
+        "id": "135652",
+        "plan_name": "print & digital",
+        "price": "5999"
+      },    
+      "gifts":[
+        {
+          "id": "235235",
+          "plan_name": "digital",
+          "price": "4999",
+          "recipient_email": "mark@twain.com"
+        },
+        {
+          "id": "234636",
+          "plan_name": "digital",
+          "price": "4999",
+          "recipient_email": "jane@austin.com"
+        }
+      ]
+    }
+  }
