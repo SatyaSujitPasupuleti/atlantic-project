@@ -1,4 +1,3 @@
-![test](https://user-images.githubusercontent.com/21280975/118487053-546c8c80-b6e8-11eb-93f7-ef95b76166a8.png)
 # atlantic-project
 To use this project:
 
@@ -19,3 +18,7 @@ and then run the server
 to test
 
     python manage.py test
+    
+Schema
+
+![test](https://user-images.githubusercontent.com/21280975/118487053-546c8c80-b6e8-11eb-93f7-ef95b76166a8.png)
