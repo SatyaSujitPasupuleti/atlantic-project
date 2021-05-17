@@ -1,5 +1,4 @@
 from django.db import models
-from django.db.models.base import Model
 class Subscription(models.Model):
     id = models.CharField(primary_key=True,max_length=100)
     plan_name = models.CharField(max_length=100)
@@ -25,4 +24,10 @@ class Gift(models.Model):
     price = models.IntegerField()
     recipient_email = models.EmailField()
     customer = models.ForeignKey(Customer,related_name='gifts',on_delete=models.CASCADE)
-# Create your models here.
+    
+class CustomerOrder(models.Model):
+    customer = models.OneToOneField(
+        Customer,
+        on_delete=models.CASCADE,
+        related_name="customerorder"
+    )

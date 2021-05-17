@@ -1,7 +1,8 @@
 from django.db import models
 from django.db.models import fields
+from django.db.models.base import Model
 from rest_framework import serializers
-from .models import Customer,Subscription,Gift
+from .models import Customer, CustomerOrder,Subscription,Gift
 from drf_writable_nested import WritableNestedModelSerializer
 
 class SubscriptionSerializer(serializers.ModelSerializer):
@@ -38,3 +39,8 @@ class CustomerSerializer(WritableNestedModelSerializer):
             "subscription",
             "gifts"
         )
+class CustomerOrderSerializer(WritableNestedModelSerializer):
+    customer = CustomerSerializer()
+    class Meta:
+        model = CustomerOrder
+        fields = ("customer",)

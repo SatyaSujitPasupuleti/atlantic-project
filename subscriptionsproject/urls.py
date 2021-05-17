@@ -19,6 +19,7 @@ from rest_framework import routers
 from subscriptionsproject.subscriptionsapp import views
 router = routers.DefaultRouter()
 router.register(r'customers',views.CustomerView)
+router.register(r'customerorders',views.CustomerOrderView)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/", include(router.urls)),

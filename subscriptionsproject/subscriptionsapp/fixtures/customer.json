@@ -1,4 +1,5 @@
 {
+    "customer": {
       "id": "b73b8b0e-0240-42a9-874c-00445d51dd8a",
       "first_name": "Ernest",
       "last_name": "Hemingway",
@@ -26,4 +27,5 @@
           "recipient_email": "jane@austin.com"
         }
       ]
+    }
   }
